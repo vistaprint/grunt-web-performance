@@ -1,0 +1,41 @@
+{
+  "name": "grunt-web-performance",
+  "version": "0.0.1",
+  "description": "Grunt task for running web performance testing using webpagetest.org",
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "report",
+    "performance",
+    "webpagetest"
+  ],
+  "homepage": "https://github.com/benhutchins/grunt-web-performance",
+  "bugs": {
+    "url": "https://github.com/benhutchins/grunt-web-performance/issues"
+  },
+  "license": "",
+  "author": "Vistaprint (https://www.vistaprint.com/)",
+  "contributors": [
+    "Benjamin Hutchins <ben@hutchins.co> (https://github.com/benhutchins/)"
+  ],
+  "files": [
+    "lib",
+    "tasks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benhutchins/grunt-web-performance.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "glob": "3.2.x",
+    "request": "^2.40.0",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4"
+  }
+}
