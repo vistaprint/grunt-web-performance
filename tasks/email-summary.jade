@@ -1,0 +1,20 @@
+﻿//- doctype html
+html(lang='en')
+  body
+    - tests.forEach(function (test) {
+      table(style="width:100%")
+        tr
+          td(style="vertical-align:top")
+            div.runName First View
+            //- render a results view
+
+            a(href=run.pages.details)
+              img(style="border: none;", src=run.repeatView.thumbnails.waterfall)
+
+          td(style="vertical-align:top")
+            div.runName Repeat View
+            //- render a results view
+
+            a(href=run.pages.details)
+              img(style="border: none;", src=run.repeatView.thumbnails.waterfall)
+    - });
